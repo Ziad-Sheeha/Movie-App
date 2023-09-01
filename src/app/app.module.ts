@@ -11,6 +11,8 @@ import { UserProfileComponent } from './Core/Components/user-profile/user-profil
 import { HomeComponent } from './Pages/home/home.component';
 import { ErrorComponent } from './error/error.component';
 import { MovieDetailsComponent } from './Pages/movie-details/movie-details.component';
+import { MoviesDashboardComponent } from './Admin/Pages/movies-dashboard/movies-dashboard.component';
+import { UsersDashboardComponent } from './Admin/Pages/users-dashboard/users-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { MovieDetailsComponent } from './Pages/movie-details/movie-details.compo
     UserProfileComponent,
     HomeComponent,
     ErrorComponent,
-    MovieDetailsComponent
+    MovieDetailsComponent,
+    MoviesDashboardComponent,
+    UsersDashboardComponent
   ],
   imports: [
     BrowserModule,
