@@ -1,0 +1,11 @@
+.logo {
+  color: #56c4ff;
+  font-family: cursive;
+}
+.active-nav-link {
+  background-color: #56c4ff;
+  padding: 0.5rem;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+}
