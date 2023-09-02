@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container">
-    <a class="navbar-brand fw-bold logo" href="#">Movie App.</a>
+    <a class="navbar-brand fw-bold logo" routerLink="home">Movie App.</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -43,10 +43,7 @@
           </a>
           <ul class="dropdown-menu">
             <li>
-              <a
-                class="dropdown-item"
-                routerLinkActive="active-nav-link"
-                routerLink="moviesDashboard"
+              <a class="dropdown-item" routerLink="moviesDashboard"
                 >Movies Dashboard</a
               >
             </li>
@@ -56,18 +53,22 @@
               >
             </li>
             <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li>
+              <a class="dropdown-item" routerLink="addNewAdmin"
+                >Add New Admin</a
+              >
+            </li>
           </ul>
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <input
-          class="form-control me-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button class="btn btn-outline-info" type="submit">Search</button>
+        <a routerLink="login" class="btn btn-success" type="submit">Login</a>
+        <a
+          routerLink="signUP"
+          class="btn btn-outline-success mx-2"
+          type="submit"
+          >SignUp</a
+        >
       </form>
     </div>
   </div>

@@ -13,6 +13,8 @@ import { ErrorComponent } from './error/error.component';
 import { MovieDetailsComponent } from './Pages/movie-details/movie-details.component';
 import { MoviesDashboardComponent } from './Admin/Pages/movies-dashboard/movies-dashboard.component';
 import { UsersDashboardComponent } from './Admin/Pages/users-dashboard/users-dashboard.component';
+import { AddNewAdminComponent } from './Admin/Pages/add-new-admin/add-new-admin.component';
+import { MovieCardComponent } from './Components/movie-card/movie-card.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { UsersDashboardComponent } from './Admin/Pages/users-dashboard/users-das
     ErrorComponent,
     MovieDetailsComponent,
     MoviesDashboardComponent,
-    UsersDashboardComponent
+    UsersDashboardComponent,
+    AddNewAdminComponent,
+    MovieCardComponent
   ],
   imports: [
     BrowserModule,
